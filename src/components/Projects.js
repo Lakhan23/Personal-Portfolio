@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/sentiment_analysis.jpg";
+import projImg2 from "../assets/img/code_pen.jpg";
+import projImg3 from "../assets/img/portfolio.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,18 +11,18 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Personal Portfolio",
-      description: "Web development",
+      title: "Sentiment Analysis",
+      description: "Machine Learning",
       imgUrl: projImg1,
     },
     {
-      title: "Grocery app",
+      title: "Code pen",
       description: "Web development",
       imgUrl: projImg2,
     },
     {
-      title: "Hand Gesture Recognition",
-      description: "Machine Learning",
+      title: "React Portfolio",
+      description: "Web development",
       imgUrl: projImg3,
     },
   ];
@@ -64,11 +64,11 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
