@@ -1,6 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/sentiment_analysis.jpg";
+import projImg1 from "../assets/img/img1.jpg";
 import projImg2 from "../assets/img/code_pen.jpg";
 import projImg3 from "../assets/img/portfolio.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -11,7 +11,7 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Sentiment Analysis",
+      title: "Hand Gesture Recognition System",
       description: "Machine Learning",
       imgUrl: projImg1,
     },

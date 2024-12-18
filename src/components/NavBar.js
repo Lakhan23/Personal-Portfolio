@@ -50,9 +50,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/halaharvi-samhitha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.linkedin.com/in/lakhankumar23/"><img src={navIcon1} alt="" /></a>
                 <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/h.samhitha?utm_source=qr&igsh=azJ6dmxnMm1tOTgw"><img src={navIcon3} alt="" /></a>
+                
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
@@ -64,3 +64,4 @@ export const NavBar = () => {
     </Router>
   )
 }
+
